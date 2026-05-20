@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.playwright-cli/
+.rag/
+release/
+tmp/
+output/
+*.log

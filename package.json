@@ -1,0 +1,49 @@
+{
+  "name": "hoshizu-undecided",
+  "version": "0.1.0",
+  "private": true,
+  "description": "星图未定 - 全年龄短篇视觉小说",
+  "author": "Hoshizu Project",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --mac --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:win": "electron-builder --win",
+    "dist:win:x64": "electron-builder --win --x64"
+  },
+  "devDependencies": {
+    "electron": "^30.5.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "dev.hoshizu.undecided",
+    "productName": "星图未定",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "index.html",
+      "styles.css",
+      "script.js",
+      "preload.js",
+      "electron-main.js",
+      "assets/**/*",
+      "sound/**/*",
+      "music/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.games",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        "portable",
+        "nsis"
+      ]
+    }
+  }
+}

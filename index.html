@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>星图未定</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="game" class="game" aria-label="星图未定">
+      <img id="bgA" class="bg bg-layer active" alt="" />
+      <img id="bgB" class="bg bg-layer" alt="" />
+      <div id="shade" class="shade"></div>
+      <section id="stage" class="stage" aria-live="polite"></section>
+      <section id="theaterOverlay" class="theater-overlay hidden" aria-label="小剧场">
+        <img id="theaterImage" class="theater-image" alt="" />
+      </section>
+      <section id="phoneOverlay" class="phone-overlay hidden" aria-label="手机消息" aria-live="polite">
+        <div class="phone-shell">
+          <div class="phone-screen">
+            <div class="phone-status">
+              <span>20:26</span>
+              <span>5G</span>
+            </div>
+            <div class="phone-chat-head">
+              <span>微信</span>
+              <strong id="phoneChatTitle">聊天</strong>
+            </div>
+            <div id="phoneChatBody" class="phone-chat-body"></div>
+            <div class="phone-chat-input" aria-hidden="true">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="titleScreen" class="title-screen" aria-label="标题菜单">
+        <div class="title-copy">
+          <p>全年龄短篇视觉小说</p>
+          <h1>星图未定</h1>
+          <span>春分前的星图，到六月后的选择。</span>
+        </div>
+        <nav class="title-menu" aria-label="主菜单">
+          <button id="startGameBtn" type="button">开始游戏</button>
+          <button id="continueGameBtn" type="button">继续游戏</button>
+          <button id="titleLoadBtn" type="button">读档</button>
+          <button id="cgGalleryBtn" type="button">CG鉴赏</button>
+          <button id="spriteGalleryBtn" type="button">立绘鉴赏</button>
+        </nav>
+      </section>
+      <div id="musicToast" class="music-toast hidden" aria-live="polite"></div>
+      <div id="transitionOverlay" class="transition-overlay hidden" aria-hidden="true">
+        <div class="transition-card">
+          <strong id="transitionTitle"></strong>
+          <span id="transitionSubtitle"></span>
+        </div>
+      </div>
+
+      <section id="choicePanel" class="choice-panel hidden" aria-label="选择"></section>
+
+      <section class="dialogue" aria-label="对话">
+        <div class="speaker-row">
+          <div id="speaker" class="speaker">星图未定</div>
+          <div id="chapter" class="chapter">第一章</div>
+        </div>
+        <p id="line" class="line"></p>
+        <div class="controls" aria-label="控制">
+          <button id="prevChapterBtn" type="button" title="上一章 (PageUp / Shift+←)">CH-</button>
+          <button id="backBtn" type="button" title="上一句">←</button>
+          <button id="nextBtn" type="button" title="下一句">→</button>
+          <button id="nextChapterBtn" type="button" title="下一章 (PageDown / Shift+→)">CH+</button>
+          <button id="autoBtn" type="button" title="自动播放">AUTO</button>
+          <button id="historyBtn" type="button" title="历史">LOG</button>
+          <button id="returnBtn" class="hidden" type="button" title="返回当前进度">NOW</button>
+          <button id="editBtn" class="hidden" type="button" title="编辑当前台词">EDIT</button>
+          <button id="saveBtn" type="button" title="存档">SAVE</button>
+          <button id="loadBtn" type="button" title="读档">LOAD</button>
+          <button id="titleBtn" type="button" title="菜单">MENU</button>
+        </div>
+      </section>
+
+      <aside id="lineEditor" class="line-editor hidden" aria-label="台词编辑">
+        <div class="line-editor-head">
+          <strong>EDIT</strong>
+          <button id="closeEditorBtn" type="button" title="关闭">×</button>
+        </div>
+        <div class="line-editor-body">
+          <div id="editorMeta" class="editor-meta"></div>
+          <label class="editor-field">
+            <span>角色</span>
+            <select id="editorSpeaker"></select>
+          </label>
+          <label class="editor-field">
+            <span>台词</span>
+            <textarea id="editorText" rows="9" spellcheck="false"></textarea>
+          </label>
+          <label class="editor-check">
+            <input id="editorSceneOverride" type="checkbox" />
+            <span>覆盖本句画面</span>
+          </label>
+          <label class="editor-field">
+            <span>背景</span>
+            <select id="editorBg"></select>
+          </label>
+          <img id="editorBgPreview" class="editor-bg-preview" alt="" />
+          <label class="editor-check">
+            <input id="editorBgmOverride" type="checkbox" />
+            <span>改动 BGM</span>
+          </label>
+          <label class="editor-field">
+            <span>BGM</span>
+            <select id="editorBgm"></select>
+          </label>
+          <label class="editor-check">
+            <input id="editorSfxOverride" type="checkbox" />
+            <span>改动音效</span>
+          </label>
+          <label class="editor-field">
+            <span>音效</span>
+            <select id="editorSfx"></select>
+          </label>
+          <label class="editor-field">
+            <span>Focus</span>
+            <select id="editorFocus"></select>
+          </label>
+          <label class="editor-check">
+            <input id="editorClearSprites" type="checkbox" />
+            <span>切换时清空原有人物</span>
+          </label>
+          <div class="editor-scene-grid" aria-label="人物排布">
+            <div class="editor-scene-grid-head">位置</div>
+            <div class="editor-scene-grid-head">人物</div>
+            <div class="editor-scene-grid-head">立绘</div>
+            <div id="editorSpriteRows" class="editor-sprite-rows"></div>
+          </div>
+          <label class="editor-check">
+            <input id="editorTransitionOverride" type="checkbox" />
+            <span>加入 transition 转场</span>
+          </label>
+          <label class="editor-field">
+            <span>转场标题</span>
+            <input id="editorTransitionTitle" type="text" autocomplete="off" />
+          </label>
+          <label class="editor-field">
+            <span>转场副标题</span>
+            <input id="editorTransitionSubtitle" type="text" autocomplete="off" />
+          </label>
+          <label class="editor-check">
+            <input id="editorTheaterOverride" type="checkbox" />
+            <span>开启小剧场演出</span>
+          </label>
+          <label class="editor-field">
+            <span>小剧场 CG</span>
+            <select id="editorTheaterCg"></select>
+          </label>
+          <img id="editorTheaterPreview" class="editor-theater-preview hidden" alt="" />
+          <div class="line-editor-actions">
+            <button id="saveLineEditBtn" type="button">保存</button>
+            <button id="resetLineEditBtn" type="button">恢复</button>
+            <button id="deleteLineEditBtn" type="button">删句</button>
+            <button id="addLineEditBtn" type="button">加句</button>
+            <button id="exportLineEditsBtn" type="button">导出</button>
+            <button id="importLineEditsBtn" type="button">导入</button>
+            <input id="importLineEditsInput" class="hidden" type="file" accept="application/json,.json" />
+          </div>
+          <div id="editorStatus" class="editor-status" aria-live="polite"></div>
+        </div>
+      </aside>
+
+      <section id="escMenu" class="esc-menu hidden" aria-label="系统菜单">
+        <div class="esc-window" role="dialog" aria-modal="true" aria-labelledby="escTitle">
+          <div class="esc-head">
+            <strong id="escTitle">系统菜单</strong>
+            <button id="closeEscBtn" type="button" title="关闭">×</button>
+          </div>
+          <div class="esc-body">
+            <div class="esc-actions" aria-label="菜单操作">
+              <button id="resumeBtn" type="button">继续游戏</button>
+              <button id="escTitleBtn" type="button">返回标题界面</button>
+              <button id="exitGameBtn" type="button">退出游戏</button>
+            </div>
+            <div class="settings-panel" aria-label="设置">
+              <label class="setting-row">
+                <span>BGM</span>
+                <input id="bgmToggle" type="checkbox" />
+              </label>
+              <label class="setting-row">
+                <span>音效</span>
+                <input id="sfxToggle" type="checkbox" />
+              </label>
+              <label class="setting-row">
+                <span>音量 <em id="volumeValue">60%</em></span>
+                <input id="volumeRange" type="range" min="0" max="100" step="1" />
+              </label>
+              <label class="setting-row">
+                <span>字体</span>
+                <select id="fontSelect">
+                  <option value="system">系统黑体</option>
+                  <option value="serif">宋体衬线</option>
+                  <option value="rounded">圆体</option>
+                </select>
+              </label>
+              <label class="setting-row">
+                <span>文字速度</span>
+                <select id="textSpeedSelect">
+                  <option value="0.65">快</option>
+                  <option value="1">标准</option>
+                  <option value="1.35">慢</option>
+                  <option value="1.65">很慢</option>
+                </select>
+              </label>
+              <label class="setting-row">
+                <span>自动播放间隔 <em id="autoDelayValue">2.1s</em></span>
+                <input id="autoDelayRange" type="range" min="1200" max="4200" step="100" />
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside id="history" class="history hidden" aria-label="历史记录">
+        <div class="history-head">
+          <strong>历史</strong>
+          <button id="closeHistoryBtn" type="button" title="关闭">×</button>
+        </div>
+        <div id="historyBody" class="history-body"></div>
+      </aside>
+
+      <section id="saveModal" class="save-modal hidden" aria-label="存读档">
+        <div class="save-window" role="dialog" aria-modal="true" aria-labelledby="saveTitle">
+          <div class="save-head">
+            <strong id="saveTitle">存档</strong>
+            <div class="save-head-actions">
+              <button id="deleteSaveBtn" type="button" title="点击后选择要清空的槽位">DEL</button>
+              <button id="closeSaveBtn" type="button" title="关闭">×</button>
+            </div>
+          </div>
+          <div id="saveStats" class="save-stats" aria-label="当前变量"></div>
+          <div id="saveSlots" class="save-slots" aria-label="存档槽位"></div>
+        </div>
+      </section>
+
+      <section id="galleryModal" class="gallery-modal hidden" aria-label="鉴赏">
+        <div class="gallery-window" role="dialog" aria-modal="true" aria-labelledby="galleryTitle">
+          <div class="gallery-head">
+            <strong id="galleryTitle">CG鉴赏</strong>
+            <button id="closeGalleryBtn" type="button" title="关闭">×</button>
+          </div>
+          <div class="gallery-body">
+            <div id="galleryGrid" class="gallery-grid" aria-label="鉴赏列表"></div>
+            <figure class="gallery-preview">
+              <img id="galleryPreview" alt="" />
+              <figcaption id="galleryCaption"></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
