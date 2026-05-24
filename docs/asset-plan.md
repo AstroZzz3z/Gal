@@ -106,26 +106,27 @@
 | 6-4 模拟考崩盘 | 新增 `classroomNight` 或复用 `classroom` | 林澈焦急 `linAnxious`，周行不出镜 | 爆点 CG 候选：补救表压迫感，周行视角看向林澈。 |
 | 6-5 重新定义“一起” | 新增 `busStopNight` / `walkwayNight` | 林澈柔和 `linSoft` | 关键 CG 候选：夜路并肩，中间留出距离但方向一致。 |
 
-### Chapter 7：临界星等
+### Chapter 7：国家队集训（当前主线）
 
 | Section | 背景 | 立绘差分 | CG 建议 |
 | --- | --- | --- | --- |
-| 7-1 高三开学 | 新增 `seniorClassroom` | 林澈高三校服 `linSeniorUniform`，夏南星毕业便服 `xiaGraduate` | 小 CG：夏南星交出天文社钥匙。 |
-| 7-2 父母的志愿表 | 新增 `homeDeskNight` 或以手机/表格 cut-in 表现 | 林澈短信/电话可不用立绘 | 无。 |
-| 7-3 联考前的冷战 | 新增 `corridorColdMorning` | 林澈冷淡 `linCold`、焦虑 `linAnxious` | 变量差分 CG 可选：低信任冷战/高信任当天和解。 |
-| 7-4 最后一次楼顶观测 | 复用 `rooftop`，建议新增 `rooftopLateSpring` | 林澈认真温柔 `linSoft`、高三校服 | 爆点 CG 必要：收回旧星图，终局前核心提问。 |
-| 7-5 考前夜 | 新增 `clubRoomNight` | 林澈平静 `linRecovering` | 关键 CG 候选：空白星图与错题模板第一页交换。 |
+| 7-1 通知没有写完 | 新增 `schoolHallAwardBoard`、复用 `homeEvening` | 林澈夏季校服 | `cgCh7NoticeAfterClass` |
+| 7-2 候选营报到 | 新增 `trainStationSummer`、`campCheckinDesk`、`universityDormitory` | 林澈夏季校服、顾望舒、唐越 | `cgCh7CampCheckinLuggage` |
+| 7-3 强者环境 | 新增 `trainingCampLectureHall`、`dataLabNight`、`dormCorridorNight` | 林澈思考/疲惫 | `cgCh7LectureHallFirstRow` |
+| 7-4 三张表 | 新增 `observatoryControlRoom`、`telescopeFieldDusk` | 林澈思考 | `cgCh7DataLabSharedScreen` |
+| 7-5 第一次掉队 | 复用考场与食堂、`vendingMachineNight` | 林澈焦虑/疲惫 | `cgCh7FailedObservationRun` |
+| 7-6 名单确认 | 新增 `selectionResultBoard`、`campGateMorning` | 林澈夏季校服 | `cgCh7CandidateListConfirm` |
 
-### Chapter 8：星图未定
+### Chapter 8：波兰的夏夜（当前主线）
 
 | Section | 背景 | 立绘差分 | CG 建议 |
 | --- | --- | --- | --- |
-| 8-1 高考三日 | 新增 `examGateSummer`、`examRoom` | 少用立绘 | 过场 CG：考场门口、铃声、热风。 |
-| 8-2 出分 | 新增 `bedroomScoreNight` / `phoneScore` | 林澈电话/消息，必要时 `linTense` | 爆点 CG 候选：分数页面冷光照脸。 |
-| 8-3 志愿表 | 新增 `volunteerSystemScreen` | 林澈紧张 `linTense` | 爆点 CG 必要：志愿表选择前，HE/BE 分岔点。 |
-| 8-4A Happy Ending | 新增 `universityDormNightA`、`universityDormNightB` | 林澈大学便服 `linCollege` | 结局 CG 必要：两座城市远程观测，同一片天空。 |
-| 8-4B Bad Ending | 新增 `orientationGroupScreen` / `cityDormEmpty` | 林澈可不出镜，只用朋友圈星图 | 结局 CG 必要：陌生专业迎新群与未点开的天文社招新。 |
-| 8-5 尾声差分 | HE 复用大学夜景；BE 复用空宿舍/手机屏 | HE 林澈 `linCollegeSmile`；BE 无立绘或远景 | HE/BE 各一张尾声 CG，优先级低于 8-3。 |
+| 8-1 行李秤和护照夹 | 新增 `polandPrepDorm` | 林澈常服 | `cgCh8PolandPackingChecklist` |
+| 8-2 登机口前 | 新增 `airportInternationalDepartures`、`airportBoardingGateNight` | 林澈常服 | `cgCh8AirportPassportExchange` |
+| 8-3 云层上方的夜航 | 新增 `airplaneCabinNight`、`airplaneWindowClouds` | 林澈常服疲惫 | `cgCh8PlaneWindowLinZhou` |
+| 8-4 抵达波兰 | 新增 `warsawAirportArrival`、`polishBusHighwayMorning`、`krakowHotelRoom`、`competitionVenuePolandGate` | 林澈疲惫 | 无 |
+| 8-5 赛场里的两小时 | 新增 `competitionOpeningHallPoland`、`internationalExamRoom`、`observationFieldPolandNight`、`teamDiscussionRoomPoland` | 林澈常服/队服替代 | `cgCh8OpeningFlagHall`、`cgCh8PolandObservationField` |
+| 8-6 维斯瓦河边 | 新增 `krakowOldTownDusk`、`vistulaRiverNight`、`resultCeremonyPoland` | 林澈常服微笑 | `cgCh8KrakowResultWalk` |
 
 ## CG 优先级
 
