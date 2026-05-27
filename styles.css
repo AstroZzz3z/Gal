@@ -686,6 +686,7 @@ button.active {
   font-size: clamp(18px, 2.2vw, 25px);
   line-height: 1.72;
   letter-spacing: 0;
+  white-space: pre-line;
 }
 
 .line.typing::after {
