@@ -161,6 +161,22 @@ const assets = {
     cgCh8CulturalNightArtificialStarrySea: "assets/cg/cg-ch8-cultural-night-artificial-starry-sea.png",
     cgCh8CulturalNightShadowsOfSokoly: "assets/cg/cg-ch8-cultural-night-shadows-of-sokoly.png",
     cgCh8CulturalNightSilverDragonAnchor: "assets/cg/cg-ch8-cultural-night-silver-dragon-anchor.png",
+    gaokaoExamGateMorning: "assets/bg/gaokao-exam-gate-morning.png",
+    gaokaoExamRoom: "assets/bg/gaokao-exam-room.png",
+    gaokaoWaitingArea: "assets/bg/gaokao-waiting-area.png",
+    scoreNightLivingRoom: "assets/bg/score-night-living-room.png",
+    volunteerSystemDesk: "assets/bg/volunteer-system-desk.png",
+    summerRooftop: "assets/bg/summer-rooftop.png",
+    collegeDormDesk: "assets/bg/college-dorm-desk.png",
+    cgCh9ReturnCountdown: "assets/cg/cg-ch9-return-countdown.png",
+    cgCh9FinalChecklist: "assets/cg/cg-ch9-final-checklist.png",
+    cgCh9ExamGateSeparateWays: "assets/cg/cg-ch9-exam-gate-separate-ways.png",
+    cgCh9EmptyConvenienceStore: "assets/cg/cg-ch9-empty-convenience-store.png",
+    cgCh10ScoreSharedTable: "assets/cg/cg-ch10-score-shared-table.png",
+    cgCh10CareerRoomThreeColumns: "assets/cg/cg-ch10-career-room-three-columns.png",
+    cgCh10TwoVolunteerForms: "assets/cg/cg-ch10-two-volunteer-forms.png",
+    cgCh10HeAdmissionRooftop: "assets/cg/cg-ch10-he-admission-rooftop.png",
+    cgCh10BeUnreadCurriculum: "assets/cg/cg-ch10-be-unread-curriculum.png",
   },
   char: {
     linNeutral: "assets/char/lin-neutral.png",
@@ -9348,7 +9364,7 @@ const STORY = {
               "focus": "lin"
             },
             {
-              "bg": "dailyClassroom",
+              "bg": "classroom",
               "clear": true,
               "speaker": "narrator",
               "text": "我跟在她身后走回教室。课桌上高三的试卷依然堆积如山，高考倒计时的数字也在一页页撕下。而在这一切生活的缝隙里，那张写着“集训营”的胸牌，被我悄悄夹进了物理书的最厚一页。"
@@ -10833,604 +10849,604 @@ const STORY = {
           "id": "ch8-s6",
           "title": "文化之夜",
           "lines": [
-  {
-    "bg": "krakowHotelRoom",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "随着所有比赛项目尘埃落定，紧绷了几个月的神经终于彻底松懈了下来。距离晚上的文化之夜还有几个小时，波兰午后的阳光透过百叶窗，懒洋洋地洒在我们这间标准的双人标间里。",
-    "bgm": "banter"
-  },
-  {
-    "speaker": "narrator",
-    "text": "房间不算大，甚至显得有些拥挤。唐越四仰八叉地霸占了靠窗的那张床，把用作草稿纸的星图垫在脑后发呆。顾望舒则一丝不苟地坐在书桌前的椅子上，低头整理着背包。",
-    "show": [
-      {
-        "id": "tang",
-        "img": "tangNeutral",
-        "pos": "left"
-      },
-      {
-        "id": "wangshu",
-        "img": "wangshuNeutral",
-        "pos": "right"
-      }
-    ]
-  },
-  {
-    "speaker": "narrator",
-    "text": "我坐在靠门的另一张床的边缘，看着他们俩。没过多久，房门被轻轻推开，林澈端着两杯刚接的温水走了进来。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "她把其中一杯递给我，然后十分自然地，在我身边的床沿坐了下来。淡淡的洗发水香气混合着阳光的味道飘了过来，两人的肩膀之间只隔着不到一拳的距离。",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualNeutral",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "tang",
-    "text": "「兄弟们，我现在满脑子只有一个念头……我想吃火锅。毛肚、百叶、肥牛，还有那种咕嘟咕嘟冒着红油的牛油锅底！」",
-    "focus": "tang"
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「波兰的土豆泥和酸菜煎香肠，终于把你这个极其挑剔的碳水星人逼疯了吗？」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "tang",
-    "text": "「那何止是逼疯，那是灵魂的折磨！我现在做梦都能闻到紫甘蓝酸菜的味道。我发誓，回国第一顿，谁要是敢点沙拉，我就跟他拼了。」",
-    "focus": "tang"
-  },
-  {
-    "speaker": "narrator",
-    "text": "唐越一边抱怨着，一边翻了个身，目光突然落在了顾望舒的书桌上。"
-  },
-  {
-    "speaker": "tang",
-    "text": "「哎？望舒，你手里拿着个什么毛茸茸的东西？你不是在整理试卷吗？」",
-    "focus": "tang"
-  },
-  {
-    "speaker": "narrator",
-    "text": "顾望舒的手猛地一抖，像是触电般把那团东西塞进了背包的夹层里，欲盖弥彰地推了推眼镜。"
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「没什么。波兰特产的……翼骑兵泰迪熊。我妹妹快过生日了，顺手买个纪念品而已。」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "tang",
-    "text": "「拉倒吧！你根本没有妹妹！上次填家属信息表的时候我看得清清楚楚，你是独生子！」",
-    "focus": "tang"
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「咳……表妹。是表妹。」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "zhou",
-    "text": "「噗……真没看出来啊望舒，平时做起天体力学大题来像个没有感情的计算机器，私底下居然喜欢毛绒玩具？」"
-  },
-  {
-    "speaker": "narrator",
-    "text": "身旁的林澈也偏过头，和我交换了一个忍俊不禁的眼神。她的肩膀因为憋笑而微微颤抖了一下，轻轻碰到了我的胳膊。",
-    "focus": "lin",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualSmile",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「我说了，这是送给表妹的。而且，谁规定学理科的就必须是毫无波澜的木头？逻辑和感性并不冲突。」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "narrator",
-    "text": "顾望舒偏过头看着窗外，原本严厉的语气忽然柔和了下来。"
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「其实……仔细想想，这段每天熬夜算轨道、跟你们抢观测时段的集训日子，马上就要结束了，多少觉得有些不太真实。」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「虽然你们平时真的很吵，但这大概会是我高中三年，最值得回味的一段时间吧。」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "narrator",
-    "text": "房间里安静了两秒。这个平时像木头一样理智毒舌的家伙突然开始走心，反而让我们都有些不知所措。"
-  },
-  {
-    "speaker": "tang",
-    "text": "「卧槽，顾望舒你别吓我，你突然这么煽情我浑身起鸡皮疙瘩。是不是被外星人夺舍了？」",
-    "focus": "tang"
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「滚。当我没说。」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "narrator",
-    "text": "大家轰然大笑起来。在这个充满阳光的午后，离别的情绪被小心翼翼地藏在了这些毫无营养的玩笑话里。"
-  },
-  {
-    "speaker": "zhou",
-    "text": "「说起来，比完赛回去马上就是高三了。大家志愿都想好了吗？真的都要在天文这条路上走到黑吗？」"
-  },
-  {
-    "speaker": "lin",
-    "text": "「大概还是会选天体物理吧。虽然很苦，可能还要常年泡在荒郊野外的观测站里……」",
-    "focus": "lin",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualThinking",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "lin",
-    "text": "「但只要想到能一辈子看着星星，研究那些远在几百万光年外的事情，想想也挺好的，不是吗？」",
-    "focus": "lin",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualSmile",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "narrator",
-    "text": "距离很近。阳光洒在她的侧脸上，勾勒出一圈柔和的光晕。我几乎能看清她睫毛投下的浅浅阴影。那是独属于十八岁的、纯粹而坚定的理想主义。"
-  },
-  {
-    "speaker": "tang",
-    "text": "「那必须的！咱们可是要征服宇宙的！不过在这之前……咱们得先征服今晚的文化之夜。所以我再次强烈提议！晚上我们唱《红日》！‘命运就算颠沛流离，命运就算曲折离奇’，气势如虹，绝对能镇住全场！」",
-    "focus": "tang"
-  },
-  {
-    "speaker": "wangshu",
-    "text": "「唐越，你忘了昨天晚上在大厅，那个新加坡小哥清唱的《海阔天空》了？人家那粤语叫一个字正腔圆，简直像是在红馆开演唱会。就咱们这下午现学的‘塑料粤语’，晚上台下坐着一圈东南亚华人哥们，你是嫌咱们丢人丢得不够大吗？」",
-    "focus": "wangshu"
-  },
-  {
-    "speaker": "zhou",
-    "text": "「望舒说得有理，毕竟是跨国汇演，还是选一首稳妥点的。《水调歌头》怎么样？明月几时有，把酒问青天，特别有中国古典美感。」"
-  },
-  {
-    "speaker": "tang",
-    "text": "「大哥，那是文化狂欢夜，不是诗词朗诵大会。节奏太慢了，容易冷场啊。难道咱们上去唱周杰伦？」",
-    "focus": "tang"
-  },
-  {
-    "speaker": "narrator",
-    "text": "就在大家你一言我一语、争执不下的时候，林澈轻轻放下了手里的水杯。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「……《夜空中最亮的星》，怎么样？」",
-    "focus": "lin",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualThinking",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "narrator",
-    "text": "房间里安静了一秒。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「对于我们这群借着星光来到这里的人来说，可能没有比这更合适的歌了。」",
-    "focus": "lin"
-  },
-  {
-    "speaker": "zhou",
-    "text": "「而且这是一首关于仰望和前行的歌，寓意很好。即使他们听不懂中文，也能感受到旋律里的力量。」"
-  },
-  {
-    "speaker": "tang",
-    "text": "「对啊！我怎么没想到！就这首了！走走走，趁还有时间，赶紧清唱两遍对对词，谁也别掉链子！」",
-    "focus": "tang"
-  },
-  {
-    "bg": "competitionOpeningHallPoland",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "几个小时后，克拉科夫宴会厅。在这个被各种肤色、各种语言挤满的嘈杂空间里，属于 IOAA 的狂欢正式开始。",
-    "bgm": "happyEnding"
-  },
-  {
-    "speaker": "narrator",
-    "text": "空气中混杂着果汁、糕点和不同香水的味道。各国的年轻人们不再是在考场上厮杀的对手，而是尽情地展示着自己国家的文化与青春的活力。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "当轮到中国队登台时，刺眼的聚光灯打在我们身上。台下黑压压的一片，无数双眼睛正注视着我们。我深吸了一口气，和队友们交换了一个眼神。随后，我们在异国的舞台上，有些拘谨地唱出了那句熟悉的旋律。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "“夜空中最亮的星，能否听清，那仰望的人，心底的孤独 and 叹息……”"
-  },
-  {
-    "speaker": "narrator",
-    "text": "伴奏从音响里轻轻铺开，我们略显青涩的和声跟着旋律往前推。起初，台下只是安静地聆听。但当副歌逐渐走高时，一点微弱的白光在黑暗的观众席中亮起。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "接着是两点、十点、成百上千点。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "那些来自世界各地、可能连一句中文都听不懂的同龄人们，自发地打开了手机的闪光灯。他们将手臂高高举起，在半空中跟随着节拍缓缓摇曳。"
-  },
-  {
-    "bg": "cgCh8CulturalNightArtificialStarrySea",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "在这间宽敞的宴会厅里，我们看着那些光点汇聚成了一片专属于天文人的灿烂星海。在这个充满分裂与隔阂的世界里，这一刻的纯粹与浪漫，美好得几乎不切实际。",
-    "bgm": "happyEnding"
-  },
-  {
-    "bg": "competitionOpeningHallPoland",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "在一片热烈得几乎要掀翻穹顶的掌声中，我们鞠躬走下台。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "紧接着，主持人用高亢的声音宣布了下一个节目：乌克兰代表队。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "我端起一杯果汁，准备找个角落好好欣赏。就在这时——"
-  },
-  {
-    "bg": "black",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "……",
-    "bgm": "none"
-  },
-  {
-    "speaker": "narrator",
-    "text": "《嘿，翔隼！》（Hej Sokoły）的旋律，在空旷的舞台上突兀地响起了。",
-    "bgm": "sokoly"
-  },
-  {
-    "speaker": "narrator",
-    "text": "本来那是乌克兰队几个人的独唱，但在旋律进行到一半时，台下忽然起了一阵骚动。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "波兰队的队员们跑上了舞台。在这个没有任何彩排的夜晚，两个相邻国家的青年在黑暗的单束追光下，紧紧勾住了彼此的肩膀。"
-  },
-  {
-    "bg": "cgCh8CulturalNightShadowsOfSokoly",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "悲凉而悠扬的东欧民歌，带着某种跨越边境的哀愁，在宴会厅的上方回荡。",
-    "bgm": "sokoly"
-  },
-  {
-    "speaker": "narrator",
-    "text": "大厅里的嘈杂声消失了。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "眼前的一切忽然失去了一部分真实感。周围人的注视、音响里传出的人声，仿佛隔着一层厚厚的水状玻璃，变得遥远而失真。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "聚光灯下，他们紧挨在一起。胸前依然挂着明晃晃的 IOAA 参赛牌。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "几百万光年外璀璨的星系。刚才那片温暖的人造星海。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "撕裂夜空的防空警报。以及那个缺席了这届赛事的庞大邻国。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "两种截然不同的现实，在这个原本属于青春的夜晚里，安静而荒诞地重叠在了一起。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "“今日，这里满是胜利与欢笑。”"
-  },
-  {
-    "speaker": "narrator",
-    "text": "“明天，这里充满硝烟与鲜血。”"
-  },
-  {
-    "speaker": "narrator",
-    "text": "“你已经做了你力所能及之事。”",
-    "choice": [
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      },
-      {
-        "text": "宇宙沉默不语。"
-      }
-    ]
-  },
-  {
-    "speaker": "narrator",
-    "text": "我感到一阵轻飘飘的眩晕。我们的青春被安全地包裹在精密公式和象牙塔里，而同台竞技的他们，却要在几天后带着奖牌，回到一个拉响着警报的故土。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "在这种巨大的、近乎于荒诞的失真感中，我无声地转过身，推开沉重的大门，一个人走出了这间宴会厅。"
-  },
-  {
-    "bg": "observationFieldPolandNight",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "离开了喧闹的大厅，波兰深夜冰冷的夜风吹在脸上，才让我的思绪稍微落回了地面。",
-    "bgm": "none"
-  },
-  {
-    "speaker": "narrator",
-    "text": "这是酒店后方的一处长满杂草的高地。远离了城市的灯火，四周静谧无声。抬头望去，是清晰得有些刺眼的银河，恒星冷酷而平静地注视着地球。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "我们在做题，我们在仰望千万光年外的星空。可就在同一片星空下，在这颗蔚蓝色的行星上，人类却依然在因为地缘、战争而流血离别。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "身后传来了枯草被踩断的极轻微的响声。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「出来连件外套都不披，明天要是发烧了，领队可是会骂人的。」",
-    "focus": "lin",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualNeutral",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "narrator",
-    "text": "林澈不知什么时候跟了出来。她的声音比平时更轻了一些，仿佛怕惊扰了什么。她没有问我为什么离场，只是安静地走到我身边，挨着我坐了下来。"
-  },
-  {
-    "speaker": "zhou",
-    "text": "「林澈……」"
-  },
-  {
-    "speaker": "lin",
-    "text": "「嗯，我在听。」",
-    "focus": "lin"
-  },
-  {
-    "speaker": "zhou",
-    "text": "「我们每天算着那些庞大的数字，看着那么遥远、那么永恒的东西。可是为什么……当低头看向地面的时候，却总觉得什么都抓不住呢？」"
-  },
-  {
-    "speaker": "narrator",
-    "text": "夜风拂过，林澈的短发发尾轻轻擦过我的肩膀。她抬头看着满天繁星，沉默了很久。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "面对着头顶无垠的宇宙和现实的荒诞，我感到一阵由内而外的无力感。那是一种对人类自身命运的深刻迷茫。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "我下意识地伸出手。在冰冷的草地上，我握住了身旁那只微凉的、纤细的手。我只是想在这极度不真实的虚无中，寻找一点确切的温度。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "林澈的指尖因为惊讶而微微一动。但她没有挣脱。过了几秒钟，她反而轻轻翻转过手腕，用柔软的掌心温柔地包裹住了我的手背。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「其实，我也觉得很害怕。」",
-    "focus": "lin",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualTired",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "lin",
-    "text": "「宇宙太大了，大到一眨眼就是几百万年。而我们又太渺小了，渺小到一场战争、一次意外，就能把我们的一切抹平。」",
-    "focus": "lin"
-  },
-  {
-    "speaker": "lin",
-    "text": "「但是周行，你听。」",
-    "focus": "lin"
-  },
-  {
-    "bg": "cgCh8CulturalNightSilverDragonAnchor",
-    "clear": true,
-    "speaker": "narrator",
-    "text": "她微微仰起头，看着那道横跨天际的银河。伴随着夜风，她用干净而温柔的声音，顺着旋律轻轻唱出了几句陌生的外语。",
-    "bgm": "silverDragon"
-  },
-  {
-    "speaker": "lin",
-    "text": "「あの蒼ざめた海の彼方で（在那苍暗大海彼端）\n今まさに誰かが傷んでいる（有人现正承受伤痛）」"
-  },
-  {
-    "speaker": "lin",
-    "text": "「まだ飛べない雛たちみたいに（如尚未飞起的雏鸟）\n僕はこの非力を嘆いている（我为自身无力叹息）」"
-  },
-  {
-    "speaker": "narrator",
-    "text": "她的歌声并不宏大，但在空旷无风的山丘上，每一个音符都仿佛能穿透心底最迷茫的角落。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「急げ悲しみ 翼に変われ（快将悲伤化成羽翼）\n急げ傷跡 羅針盤になれ（快把伤痕当做罗盘）」"
-  },
-  {
-    "speaker": "lin",
-    "text": "「まだ飛べない雛たちみたいに（如尚未飞起的雏鸟）\n僕はこの非力を嘆いている（我为自身无力叹息）」"
-  },
-  {
-    "speaker": "narrator",
-    "text": "她微微阖上双眼，轻柔的声音随着夜风，流淌向头顶横跨天际的银河。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「夢が迎えに来てくれるまで（直到梦想成真之前）\n震えて待ってるだけだった昨日（昨日我仍惴惴而待）」"
-  },
-  {
-    "speaker": "lin",
-    "text": "「明日 僕は龍の足元へ崖を登り 呼ぶよ（明日我将攀上断崖来到龙的脚下 呼唤它）\n『さあ、行こうぜ』（『来吧，出发吧』）」"
-  },
-  {
-    "speaker": "narrator",
-    "text": "那一瞬间，伴随着逐渐激昂的旋律，我仿佛真的看到了一条由无数恒星组成的虚幻巨龙，在头顶无声地舒展着庞大的身躯。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「銀の龍の背に乗って（骑在银龙的背上）\n届けに行こう 命の砂漠へ（前往生命的沙漠中传达吧）」"
-  },
-  {
-    "speaker": "lin",
-    "text": "「銀の龍の背に乗って（骑在银龙的背上）\n運んで行こう 雨雲の渦を（带去雨云的漩涡吧）」"
-  },
-  {
-    "speaker": "narrator",
-    "text": "林澈的歌声并不宏大，却在这无边的夜色中格外清晰。"
-  },
-  {
-    "speaker": "zhou",
-    "text": "「这首歌……叫什么名字？」"
-  },
-  {
-    "speaker": "lin",
-    "text": "「中岛美雪的《骑在银龙的背上》。很久以前的老歌了。」",
-    "focus": "lin",
-    "show": [
-      {
-        "id": "lin",
-        "img": "linCasualSmile",
-        "pos": "center"
-      }
-    ]
-  },
-  {
-    "speaker": "lin",
-    "text": "「它原本是写给一个偏远海岛上的医生的。在那个四面环海、医疗条件极差的孤岛上，生命脆弱得就像一张薄纸。可是那位医生，还是每天骑着自行车，迎着风浪去救人。」",
-    "focus": "lin"
-  },
-  {
-    "speaker": "lin",
-    "text": "「歌词里说，哪怕失去一切，也要乘上那只银龙的背，去往生命的彼岸。我觉得……那条‘银龙’，不仅仅是大海的波浪。」",
-    "focus": "lin"
-  },
-  {
-    "speaker": "narrator",
-    "text": "林澈抬起没有被我握住的那只手，指了指我们头顶那条由无数恒星组成的、横跨夜空的璀璨光带。"
-  },
-  {
-    "speaker": "lin",
-    "text": "「它也可以是我们头顶的这条银河，不是吗？」",
-    "focus": "lin"
-  },
-  {
-    "speaker": "lin",
-    "text": "「宇宙对我们的苦难沉默不语。但这并不代表我们什么都做不到。至少现在，在这片星空下，我们的存在是真实的，我们手中握着的温度也是真实的。」",
-    "focus": "lin"
-  },
-  {
-    "speaker": "narrator",
-    "text": "在这轻柔而充满力量的歌声余韵中，那股压抑在心头的荒谬与无力，被奇迹般地、温柔地抚平了。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "我突然明白，人类的悲欢确实并不相通，宇宙的法则也始终冷酷。"
-  },
-  {
-    "speaker": "narrator",
-    "text": "但哪怕这世界满是泥泞，哪怕现实荒诞不经，我们依然可以骑上那条名为‘银河’的巨龙。在这无尽的黑夜里，带着彼此的温度，继续仰望，坚韧前行。"
-  }
-]
+            {
+              "bg": "krakowHotelRoom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "随着所有比赛项目尘埃落定，紧绷了几个月的神经终于彻底松懈了下来。距离晚上的文化之夜还有几个小时，波兰午后的阳光透过百叶窗，懒洋洋地洒在我们这间标准的双人标间里。",
+              "bgm": "banter"
+            },
+            {
+              "speaker": "narrator",
+              "text": "房间不算大，甚至显得有些拥挤。唐越四仰八叉地霸占了靠窗的那张床，把用作草稿纸的星图垫在脑后发呆。顾望舒则一丝不苟地坐在书桌前的椅子上，低头整理着背包。",
+              "show": [
+                {
+                  "id": "tang",
+                  "img": "tangNeutral",
+                  "pos": "left"
+                },
+                {
+                  "id": "wangshu",
+                  "img": "wangshuNeutral",
+                  "pos": "right"
+                }
+              ]
+            },
+            {
+              "speaker": "narrator",
+              "text": "我坐在靠门的另一张床的边缘，看着他们俩。没过多久，房门被轻轻推开，林澈端着两杯刚接的温水走了进来。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把其中一杯递给我，然后十分自然地，在我身边的床沿坐了下来。淡淡的洗发水香气混合着阳光的味道飘了过来，两人的肩膀之间只隔着不到一拳的距离。",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualNeutral",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "tang",
+              "text": "「兄弟们，我现在满脑子只有一个念头……我想吃火锅。毛肚、百叶、肥牛，还有那种咕嘟咕嘟冒着红油的牛油锅底！」",
+              "focus": "tang"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「波兰的土豆泥和酸菜煎香肠，终于把你这个极其挑剔的碳水星人逼疯了吗？」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "tang",
+              "text": "「那何止是逼疯，那是灵魂的折磨！我现在做梦都能闻到紫甘蓝酸菜的味道。我发誓，回国第一顿，谁要是敢点沙拉，我就跟他拼了。」",
+              "focus": "tang"
+            },
+            {
+              "speaker": "narrator",
+              "text": "唐越一边抱怨着，一边翻了个身，目光突然落在了顾望舒的书桌上。"
+            },
+            {
+              "speaker": "tang",
+              "text": "「哎？望舒，你手里拿着个什么毛茸茸的东西？你不是在整理试卷吗？」",
+              "focus": "tang"
+            },
+            {
+              "speaker": "narrator",
+              "text": "顾望舒的手猛地一抖，像是触电般把那团东西塞进了背包的夹层里，欲盖弥彰地推了推眼镜。"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「没什么。波兰特产的……翼骑兵泰迪熊。我妹妹快过生日了，顺手买个纪念品而已。」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "tang",
+              "text": "「拉倒吧！你根本没有妹妹！上次填家属信息表的时候我看得清清楚楚，你是独生子！」",
+              "focus": "tang"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「咳……表妹。是表妹。」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「噗……真没看出来啊望舒，平时做起天体力学大题来像个没有感情的计算机器，私底下居然喜欢毛绒玩具？」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "身旁的林澈也偏过头，和我交换了一个忍俊不禁的眼神。她的肩膀因为憋笑而微微颤抖了一下，轻轻碰到了我的胳膊。",
+              "focus": "lin",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualSmile",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「我说了，这是送给表妹的。而且，谁规定学理科的就必须是毫无波澜的木头？逻辑和感性并不冲突。」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "narrator",
+              "text": "顾望舒偏过头看着窗外，原本严厉的语气忽然柔和了下来。"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「其实……仔细想想，这段每天熬夜算轨道、跟你们抢观测时段的集训日子，马上就要结束了，多少觉得有些不太真实。」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「虽然你们平时真的很吵，但这大概会是我高中三年，最值得回味的一段时间吧。」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "narrator",
+              "text": "房间里安静了两秒。这个平时像木头一样理智毒舌的家伙突然开始走心，反而让我们都有些不知所措。"
+            },
+            {
+              "speaker": "tang",
+              "text": "「卧槽，顾望舒你别吓我，你突然这么煽情我浑身起鸡皮疙瘩。是不是被外星人夺舍了？」",
+              "focus": "tang"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「滚。当我没说。」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "narrator",
+              "text": "大家轰然大笑起来。在这个充满阳光的午后，离别的情绪被小心翼翼地藏在了这些毫无营养的玩笑话里。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「说起来，比完赛回去马上就是高三了。大家志愿都想好了吗？真的都要在天文这条路上走到黑吗？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「大概还是会选天体物理吧。虽然很苦，可能还要常年泡在荒郊野外的观测站里……」",
+              "focus": "lin",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualThinking",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "lin",
+              "text": "「但只要想到能一辈子看着星星，研究那些远在几百万光年外的事情，想想也挺好的，不是吗？」",
+              "focus": "lin",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualSmile",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "narrator",
+              "text": "距离很近。阳光洒在她的侧脸上，勾勒出一圈柔和的光晕。我几乎能看清她睫毛投下的浅浅阴影。那是独属于十八岁的、纯粹而坚定的理想主义。"
+            },
+            {
+              "speaker": "tang",
+              "text": "「那必须的！咱们可是要征服宇宙的！不过在这之前……咱们得先征服今晚的文化之夜。所以我再次强烈提议！晚上我们唱《红日》！‘命运就算颠沛流离，命运就算曲折离奇’，气势如虹，绝对能镇住全场！」",
+              "focus": "tang"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「唐越，你忘了昨天晚上在大厅，那个新加坡小哥清唱的《海阔天空》了？人家那粤语叫一个字正腔圆，简直像是在红馆开演唱会。就咱们这下午现学的‘塑料粤语’，晚上台下坐着一圈东南亚华人哥们，你是嫌咱们丢人丢得不够大吗？」",
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「望舒说得有理，毕竟是跨国汇演，还是选一首稳妥点的。《水调歌头》怎么样？明月几时有，把酒问青天，特别有中国古典美感。」"
+            },
+            {
+              "speaker": "tang",
+              "text": "「大哥，那是文化狂欢夜，不是诗词朗诵大会。节奏太慢了，容易冷场啊。难道咱们上去唱周杰伦？」",
+              "focus": "tang"
+            },
+            {
+              "speaker": "narrator",
+              "text": "就在大家你一言我一语、争执不下的时候，林澈轻轻放下了手里的水杯。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「……《夜空中最亮的星》，怎么样？」",
+              "focus": "lin",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualThinking",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "narrator",
+              "text": "房间里安静了一秒。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「对于我们这群借着星光来到这里的人来说，可能没有比这更合适的歌了。」",
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「而且这是一首关于仰望和前行的歌，寓意很好。即使他们听不懂中文，也能感受到旋律里的力量。」"
+            },
+            {
+              "speaker": "tang",
+              "text": "「对啊！我怎么没想到！就这首了！走走走，趁还有时间，赶紧清唱两遍对对词，谁也别掉链子！」",
+              "focus": "tang"
+            },
+            {
+              "bg": "competitionOpeningHallPoland",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "几个小时后，克拉科夫宴会厅。在这个被各种肤色、各种语言挤满的嘈杂空间里，属于 IOAA 的狂欢正式开始。",
+              "bgm": "happyEnding"
+            },
+            {
+              "speaker": "narrator",
+              "text": "空气中混杂着果汁、糕点和不同香水的味道。各国的年轻人们不再是在考场上厮杀的对手，而是尽情地展示着自己国家的文化与青春的活力。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "当轮到中国队登台时，刺眼的聚光灯打在我们身上。台下黑压压的一片，无数双眼睛正注视着我们。我深吸了一口气，和队友们交换了一个眼神。随后，我们在异国的舞台上，有些拘谨地唱出了那句熟悉的旋律。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "“夜空中最亮的星，能否听清，那仰望的人，心底的孤独 and 叹息……”"
+            },
+            {
+              "speaker": "narrator",
+              "text": "伴奏从音响里轻轻铺开，我们略显青涩的和声跟着旋律往前推。起初，台下只是安静地聆听。但当副歌逐渐走高时，一点微弱的白光在黑暗的观众席中亮起。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "接着是两点、十点、成百上千点。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "那些来自世界各地、可能连一句中文都听不懂的同龄人们，自发地打开了手机的闪光灯。他们将手臂高高举起，在半空中跟随着节拍缓缓摇曳。"
+            },
+            {
+              "bg": "cgCh8CulturalNightArtificialStarrySea",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "在这间宽敞的宴会厅里，我们看着那些光点汇聚成了一片专属于天文人的灿烂星海。在这个充满分裂与隔阂的世界里，这一刻的纯粹与浪漫，美好得几乎不切实际。",
+              "bgm": "happyEnding"
+            },
+            {
+              "bg": "competitionOpeningHallPoland",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "在一片热烈得几乎要掀翻穹顶的掌声中，我们鞠躬走下台。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "紧接着，主持人用高亢的声音宣布了下一个节目：乌克兰代表队。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我端起一杯果汁，准备找个角落好好欣赏。就在这时——"
+            },
+            {
+              "bg": "competitionOpeningHallPoland",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "……",
+              "bgm": "none"
+            },
+            {
+              "speaker": "narrator",
+              "text": "《嘿，翔隼！》（Hej Sokoły）的旋律，在空旷的舞台上突兀地响起了。",
+              "bgm": "sokoly"
+            },
+            {
+              "speaker": "narrator",
+              "text": "本来那是乌克兰队几个人的独唱，但在旋律进行到一半时，台下忽然起了一阵骚动。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "波兰队的队员们跑上了舞台。在这个没有任何彩排的夜晚，两个相邻国家的青年在黑暗的单束追光下，紧紧勾住了彼此的肩膀。"
+            },
+            {
+              "bg": "cgCh8CulturalNightShadowsOfSokoly",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "悲凉而悠扬的东欧民歌，带着某种跨越边境的哀愁，在宴会厅的上方回荡。",
+              "bgm": "sokoly"
+            },
+            {
+              "speaker": "narrator",
+              "text": "大厅里的嘈杂声消失了。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "眼前的一切忽然失去了一部分真实感。周围人的注视、音响里传出的人声，仿佛隔着一层厚厚的水状玻璃，变得遥远而失真。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "聚光灯下，他们紧挨在一起。胸前依然挂着明晃晃的 IOAA 参赛牌。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "几百万光年外璀璨的星系。刚才那片温暖的人造星海。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "撕裂夜空的防空警报。以及那个缺席了这届赛事的庞大邻国。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "两种截然不同的现实，在这个原本属于青春的夜晚里，安静而荒诞地重叠在了一起。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "“今日，这里满是胜利与欢笑。”"
+            },
+            {
+              "speaker": "narrator",
+              "text": "“明天，这里充满硝烟与鲜血。”"
+            },
+            {
+              "speaker": "narrator",
+              "text": "“你已经做了你力所能及之事。”",
+              "choice": [
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                },
+                {
+                  "text": "宇宙沉默不语。"
+                }
+              ]
+            },
+            {
+              "speaker": "narrator",
+              "text": "我感到一阵轻飘飘的眩晕。我们的青春被安全地包裹在精密公式和象牙塔里，而同台竞技的他们，却要在几天后带着奖牌，回到一个拉响着警报的故土。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "在这种巨大的、近乎于荒诞的失真感中，我无声地转过身，推开沉重的大门，一个人走出了这间宴会厅。"
+            },
+            {
+              "bg": "observationFieldPolandNight",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "离开了喧闹的大厅，波兰深夜冰冷的夜风吹在脸上，才让我的思绪稍微落回了地面。",
+              "bgm": "none"
+            },
+            {
+              "speaker": "narrator",
+              "text": "这是酒店后方的一处长满杂草的高地。远离了城市的灯火，四周静谧无声。抬头望去，是清晰得有些刺眼的银河，恒星冷酷而平静地注视着地球。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我们在做题，我们在仰望千万光年外的星空。可就在同一片星空下，在这颗蔚蓝色的行星上，人类却依然在因为地缘、战争而流血离别。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "身后传来了枯草被踩断的极轻微的响声。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「出来连件外套都不披，明天要是发烧了，领队可是会骂人的。」",
+              "focus": "lin",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualNeutral",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈不知什么时候跟了出来。她的声音比平时更轻了一些，仿佛怕惊扰了什么。她没有问我为什么离场，只是安静地走到我身边，挨着我坐了下来。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「林澈……」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「嗯，我在听。」",
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我们每天算着那些庞大的数字，看着那么遥远、那么永恒的东西。可是为什么……当低头看向地面的时候，却总觉得什么都抓不住呢？」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "夜风拂过，林澈的短发发尾轻轻擦过我的肩膀。她抬头看着满天繁星，沉默了很久。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "面对着头顶无垠的宇宙和现实的荒诞，我感到一阵由内而外的无力感。那是一种对人类自身命运的深刻迷茫。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我下意识地伸出手。在冰冷的草地上，我握住了身旁那只微凉的、纤细的手。我只是想在这极度不真实的虚无中，寻找一点确切的温度。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈的指尖因为惊讶而微微一动。但她没有挣脱。过了几秒钟，她反而轻轻翻转过手腕，用柔软的掌心温柔地包裹住了我的手背。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「其实，我也觉得很害怕。」",
+              "focus": "lin",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualTired",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "lin",
+              "text": "「宇宙太大了，大到一眨眼就是几百万年。而我们又太渺小了，渺小到一场战争、一次意外，就能把我们的一切抹平。」",
+              "focus": "lin"
+            },
+            {
+              "speaker": "lin",
+              "text": "「但是周行，你听。」",
+              "focus": "lin"
+            },
+            {
+              "bg": "cgCh8CulturalNightSilverDragonAnchor",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "她微微仰起头，看着那道横跨天际的银河。伴随着夜风，她用干净而温柔的声音，顺着旋律轻轻唱出了几句陌生的外语。",
+              "bgm": "silverDragon"
+            },
+            {
+              "speaker": "lin",
+              "text": "「あの蒼ざめた海の彼方で（在那苍暗大海彼端）\n今まさに誰かが傷んでいる（有人现正承受伤痛）」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「まだ飛べない雛たちみたいに（如尚未飞起的雏鸟）\n僕はこの非力を嘆いている（我为自身无力叹息）」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她的歌声并不宏大，但在空旷无风的山丘上，每一个音符都仿佛能穿透心底最迷茫的角落。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「急げ悲しみ 翼に変われ（快将悲伤化成羽翼）\n急げ傷跡 羅針盤になれ（快把伤痕当做罗盘）」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「まだ飛べない雛たちみたいに（如尚未飞起的雏鸟）\n僕はこの非力を嘆いている（我为自身无力叹息）」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她微微阖上双眼，轻柔的声音随着夜风，流淌向头顶横跨天际的银河。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「夢が迎えに来てくれるまで（直到梦想成真之前）\n震えて待ってるだけだった昨日（昨日我仍惴惴而待）」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「明日 僕は龍の足元へ崖を登り 呼ぶよ（明日我将攀上断崖来到龙的脚下 呼唤它）\n『さあ、行こうぜ』（『来吧，出发吧』）」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "那一瞬间，伴随着逐渐激昂的旋律，我仿佛真的看到了一条由无数恒星组成的虚幻巨龙，在头顶无声地舒展着庞大的身躯。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「銀の龍の背に乗って（骑在银龙的背上）\n届けに行こう 命の砂漠へ（前往生命的沙漠中传达吧）」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「銀の龍の背に乗って（骑在银龙的背上）\n運んで行こう 雨雲の渦を（带去雨云的漩涡吧）」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈的歌声并不宏大，却在这无边的夜色中格外清晰。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「这首歌……叫什么名字？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「中岛美雪的《骑在银龙的背上》。很久以前的老歌了。」",
+              "focus": "lin",
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualSmile",
+                  "pos": "center"
+                }
+              ]
+            },
+            {
+              "speaker": "lin",
+              "text": "「它原本是写给一个偏远海岛上的医生的。在那个四面环海、医疗条件极差的孤岛上，生命脆弱得就像一张薄纸。可是那位医生，还是每天骑着自行车，迎着风浪去救人。」",
+              "focus": "lin"
+            },
+            {
+              "speaker": "lin",
+              "text": "「歌词里说，哪怕失去一切，也要乘上那只银龙的背，去往生命的彼岸。我觉得……那条‘银龙’，不仅仅是大海的波浪。」",
+              "focus": "lin"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈抬起没有被我握住的那只手，指了指我们头顶那条由无数恒星组成的、横跨夜空的璀璨光带。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「它也可以是我们头顶的这条银河，不是吗？」",
+              "focus": "lin"
+            },
+            {
+              "speaker": "lin",
+              "text": "「宇宙对我们的苦难沉默不语。但这并不代表我们什么都做不到。至少现在，在这片星空下，我们的存在是真实的，我们手中握着的温度也是真实的。」",
+              "focus": "lin"
+            },
+            {
+              "speaker": "narrator",
+              "text": "在这轻柔而充满力量的歌声余韵中，那股压抑在心头的荒谬与无力，被奇迹般地、温柔地抚平了。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我突然明白，人类的悲欢确实并不相通，宇宙的法则也始终冷酷。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "但哪怕这世界满是泥泞，哪怕现实荒诞不经，我们依然可以骑上那条名为‘银河’的巨龙。在这无尽的黑夜里，带着彼此的温度，继续仰望，坚韧前行。"
+            }
+          ]
         },
         {
           "id": "ch8-s7",
@@ -11946,6 +11962,2074 @@ const STORY = {
             {
               "speaker": "narrator",
               "text": "未来确实还有很多事情找不到清晰的答案，但这一次，我再也没有了那种急于索要全部结果的焦虑。先飞回国，先把落下的课补上，先踏踏实实地把下一张卷子做完。至于那些更遥远的以后，完全可以等我们一起并肩走到那里的时候，再慢慢说。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "title": "第九章：回到考场",
+      "sections": [
+        {
+          "id": "ch9-s1",
+          "title": "返校第一节课",
+          "lines": [
+            {
+              "bg": "schoolGateMorning",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "回国后的第一个早晨，校门口的香樟树还是原来的香樟树，只是我背包里多了波兰带回来的证书，桌洞里等着我的却是三套补卷。",
+              "bgm": "dailyClassroom"
+            },
+            {
+              "speaker": "narrator",
+              "text": "校门口公告栏旁边贴了新的红纸。林澈的铜牌、顾望舒的银牌、唐越的铜牌，还有我那个 Honorable Mention，被班主任很认真地排成一行。"
+            },
+            {
+              "speaker": "chen",
+              "text": "「国际赛选手回归！请问你现在做数学选择题会自动切换双语模式吗？」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "chen",
+                  "img": "chenNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "chen"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「不会，但我现在看见选择题会先确认是不是北京时间。」"
+            },
+            {
+              "speaker": "chen",
+              "text": "「有长进，至少知道看时间了。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你先确认缺了哪几张卷子。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linSummerNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「这么快就回现实？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「现实没出国。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把我的桌面清出一块地方，按科目把补卷夹好。数学最厚，英语其次，语文作文纸薄薄一沓，却压得我心里更沉。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你自己的呢？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「在我桌上。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我看见了。你把晚饭那格写成十五分钟，是准备参加高考，还是准备竞速生活？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「十五分钟够吃。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「够吃，不够像人一样吃。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈伸手要拿回自己的计划表，被我按住边角。她看了我一眼，没用力抢。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我们约一下。你帮我盯数学，我帮你盯吃饭和睡觉。别说你不需要，你在波兰都能给我写当地时间十点睡。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你现在很会翻旧账。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「训练成果。」"
+            },
+            {
+              "speaker": "homeroom",
+              "text": "「两位国际赛选手，先别在第一节课前成立互助委员会。到办公室来一下。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "teacher",
+                  "img": "teacherNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "homeroom"
+            },
+            {
+              "bg": "careerRoom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "办公室里，班主任把补课清单、月考安排和高考体检确认表摊开。国际赛证书被她放在一边，像一个已经完成归档的项目。"
+            },
+            {
+              "speaker": "homeroom",
+              "text": "「该表扬的已经表扬完了。接下来你们要把缺的课补回来。高考不会因为你们去过波兰就少考一道函数题。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「老师，这句话非常现实。」"
+            },
+            {
+              "speaker": "homeroom",
+              "text": "「现实一点挺好。周行，你数学压轴最近掉得明显。林澈，你英语完形和作文别因为忙着补物理就放掉。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「知道。」"
+            },
+            {
+              "speaker": "homeroom",
+              "text": "「还有，别把高考前所有事都做成互相监督。你们可以互相提醒，但每个人的考场最后都只能自己进去。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "这句话落下来的时候，我下意识看了林澈一眼。她也正好看我，眼神很平，像是在说：听见了。"
+            },
+            {
+              "bg": "classroom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "第一节课铃响的时候，我坐回座位。黑板右侧的倒计时少得很快，粉笔写着“距高考 21 天”。那几个数字比任何横幅都更有存在感。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈把一张便利贴贴到我的数学卷首页，上面写着：先补函数，别碰运气。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「林澈，你这个便利贴语气很像考场广播。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「能执行就行。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那你的晚饭便利贴呢？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「不用。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我已经贴了。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她低头一看，自己课桌角上多了张小纸条：晚饭三十分钟，少一分钟补一题完形。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你这是什么惩罚制度？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「国际互助。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把便利贴撕下来，又重新贴回去，只是把“三十”改成了“二十五”。我没有再讨价还价。能改到二十五，已经是今天第一场胜利。"
+            },
+            {
+              "bg": "cgCh9ReturnCountdown",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "黑板倒计时旁边，国际赛证书和一摞补卷压在同一张课桌上。林澈把补课清单推过来，像把我从远处重新拉回教室。"
+            }
+          ]
+        },
+        {
+          "id": "ch9-s2",
+          "title": "补课表和错题夹",
+          "lines": [
+            {
+              "bg": "classroomNight",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "晚自习的教室只开了前排两盏灯。窗外操场已经暗下来，黑板上还残留着白天数学老师写到一半的导数步骤。",
+              "bgm": "examLamp"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我把波兰赛事手册收进书包最里层，换上高考错题夹。不是把那段路藏起来，而是暂时不让它占满桌面。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你这张表为什么数学只有两行？」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linSummerThinking",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「因为我对数学怀有基本尊重，不敢写太多。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「准确说，是你在逃避压轴题。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你能不能给逃避留一点体面？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「不能。体面不提分。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把我的补课表改得很干脆：函数压轴每天一题，立体几何隔天一套，选择填空限时训练从二十分钟开始。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你这个安排看起来像军事演习。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「比你原来的‘看心情补数学’好。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那你自己的英语呢？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我排了。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你排的是每天睡前背作文。我建议你把它放到晚饭后。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「晚饭后要刷物理。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你物理不是弱项。英语完形才是你现在会漏分的地方。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她握笔的手停了一下。以前多半是她把我从逃避里揪出来，这次轮到我把她的计划表往现实里按。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你现在指出问题的时候，语气很像我。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「说明你教学成功。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「也说明我以前说话可能有点讨厌。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「不讨厌。就是容易让人无法反驳。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她低头把英语完形挪到晚饭后，晚自习后半段留给物理。那一笔改得很小，却让我心里松了一点。"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「国际赛经验不能直接搬到高考。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "wangshu",
+                  "img": "wangshuNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「顾望舒，你出现得很像教辅书目录。」"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「我来还英语听力材料。顺便提醒你们，竞赛题可以写过程找边界，高考题先拿确定分。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「所以最后三周要降风险。」"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「对。别用国际赛的兴奋感给高考加戏。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你们两个说话都很适合贴在教室后墙。」"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「你可以贴。只要不影响复习。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "顾望舒走后，林澈把她留下的听力材料分成两份。我的那份被她压在数学卷下面，像防止我假装没看见。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你这是物理封印英语？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「这是防止你只做看起来有安全感的题。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我突然发现高考比国际赛可怕。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「国际赛题难，但日子短。高考难在每天都要按时出现。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她说完这句，没有继续拔高。只是拿起笔，在我们的计划表右下角写了两个字：执行。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "那天晚上我们没有聊志愿，也没有聊波兰。教室里只剩翻卷子的声音和笔尖摩擦纸面的声音。很普通，也很必要。"
+            },
+            {
+              "speaker": "system",
+              "text": "补课表怎么排？",
+              "choice": [
+                {
+                  "text": "先补最薄弱的数学压轴",
+                  "effects": {
+                    "discipline": 1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "narrator",
+                      "text": "我把数学压轴放到每天第一项。林澈看见以后只点了一下头，没有夸我，但把最上面那道题的切入点写在旁边。"
+                    }
+                  ]
+                },
+                {
+                  "text": "陪林澈重排补课表",
+                  "effects": {
+                    "trust": 1,
+                    "discipline": 1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "narrator",
+                      "text": "我先把林澈那张过满的表拆开。她一开始皱眉，后来把晚饭和睡觉时间重新写上去，小声说了一句“这样也行”。"
+                    }
+                  ]
+                },
+                {
+                  "text": "所有科目平均铺开",
+                  "effects": {},
+                  "insert": [
+                    {
+                      "speaker": "narrator",
+                      "text": "我试图把所有科目排得很均匀。林澈看了半分钟，说这张表很公平，也很容易执行不完。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch9-s3",
+          "title": "最后一次全真模拟",
+          "lines": [
+            {
+              "bg": "gaokaoExamRoom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "高考前最后一次全真模拟，学校把教室按正式考场重新贴了座位号。桌面被清得很干净，连课桌上的旧刻痕都显得比平时明显。",
+              "bgm": "gaokaoAnxiety"
+            },
+            {
+              "speaker": "narrator",
+              "text": "语文第一科我写得不算顺。作文开头改了三遍，最后还是把最稳的结构写下去。走出考场时，我感觉自己像被一张很长的纸拖着走。"
+            },
+            {
+              "bg": "schoolCorridorNoon",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "走廊里有人对答案，有人说自己作文跑题。林澈站在窗边，没有加入任何一个小圈子。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「别对作文。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linSummerNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我还没开口。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你表情已经准备开口了。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我只是想确认我有没有偏题。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「确认不了。下一科数学。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "数学下午开考。第八题果然卡住，我在草稿纸上写了两行，发现越写越像绕圈。以前我会硬啃，现在我把题号旁边画了个星，翻过去。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "标星，后置。林澈说过很多遍，今天终于没有变成一句口号。"
+            },
+            {
+              "bg": "competitionExamHallway",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "模拟结束后，走廊里热得发闷。我拎着笔袋走出来，第一眼就看见林澈站在楼梯口。她手里拿着两瓶水，一瓶已经拧松了瓶盖。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我数学前二十分钟像被题目追着跑。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你跑赢了吗？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「后面勉强反超。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「那记动作。前二十分钟先扫全卷，不要跟第八题吵架。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「第八题先动手的。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「高考不会记录谁先动手。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把水递给我，又把自己的答题卡回忆写在便签上：英语听力漏了一个连读，物理最后一题单位检查及时。没有“完了”，也没有“没事”，只有下一次能改什么。"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「最后阶段，不要再往脑子里塞新奇招。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "teacher",
+                  "img": "teacherNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "teacher"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「你们现在要做的是减少错误动作。会的题拿稳，不会的题别把会的时间拖走。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「许老师，这听起来像在说我和第八题。」"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「你知道就好。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「听见了吗？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「听见了。第八题不是私人恩怨。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "模拟考那天晚上，我们互换了最后三天检查清单。我的清单上多了“数学前五分钟扫全卷”，她的清单上多了“英语听力前不翻作文模板”。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "这些东西看起来很小，却比任何“加油”都具体。高考越近，越需要这种不会飘起来的提醒。"
+            },
+            {
+              "speaker": "system",
+              "text": "模拟考后怎么复盘？",
+              "choice": [
+                {
+                  "text": "承认自己数学前二十分钟慌了",
+                  "effects": {
+                    "trust": 1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "zhou",
+                      "text": "「我确实慌了。不是题有多难，是我一开始就想把它赢下来。」"
+                    },
+                    {
+                      "speaker": "lin",
+                      "text": "「能说出来就行。高考时先把它放到后面。」"
+                    }
+                  ]
+                },
+                {
+                  "text": "和林澈互换最后三天检查清单",
+                  "effects": {
+                    "discipline": 1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "narrator",
+                      "text": "我们把彼此最容易犯的错误写在对方清单上。林澈写我的字很小，但每条都很准。"
+                    }
+                  ]
+                },
+                {
+                  "text": "说没事，反正只是模拟",
+                  "effects": {
+                    "trust": -1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "lin",
+                      "text": "「你可以不扩大焦虑，但不要用‘没事’把问题盖过去。」"
+                    },
+                    {
+                      "speaker": "narrator",
+                      "text": "我把那句轻飘飘的话收回来，重新写下第八题的处理动作。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch9-s4",
+          "title": "6月6日晚上",
+          "lines": [
+            {
+              "bg": "homeEvening",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "六月六日晚上，家里的餐桌被清出一块地方。身份证、准考证、透明笔袋、两支黑色签字笔、橡皮、尺子，全都被我妈摆成一排。",
+              "bgm": "smallPromise"
+            },
+            {
+              "speaker": "mother",
+              "text": "「再检查一遍。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「这是第三遍。」"
+            },
+            {
+              "speaker": "mother",
+              "text": "「那就第三遍。」"
+            },
+            {
+              "speaker": "father",
+              "text": "「路上别喝太多水，进考场前上厕所。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「爸，这个提醒很生活。」"
+            },
+            {
+              "speaker": "father",
+              "text": "「高考本来就是生活。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我原本想给林澈发一段很长的话，写到“明天就高考了”又删掉。最后只发了两个字：检查。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「身份证、准考证、透明笔袋、备用笔。拍照存手机了吗？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你回得像自动检查系统。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「拍了吗？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「拍了。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「明早见。」"
+            },
+            {
+              "bg": "schoolGateDusk",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "晚上八点半，我们在学校门口短暂碰了一面。不是为了复习，也不是为了说什么大话，只是把明天的路线和时间再对一遍。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「身份证。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linSummerNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「有。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「准考证。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「有。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「透明笔袋。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「有。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你为什么表情这么郑重？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「因为我感觉你下一秒要检查我是不是本人。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「不用。你紧张的时候很好认。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她自己的透明笔袋也被整理得很整齐，橡皮放在左侧，笔尖朝同一个方向。可我看见她拇指一直压着准考证边角。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「林澈。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「嗯？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你也紧张？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「紧张。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你回答得好快。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「因为没必要装不紧张。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那高考后，我想把之前没说完的话说完。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「可以。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「这么快就可以？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我是说可以排进高考后。现在先睡觉。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把一颗薄荷糖放到我手心，包装纸边角被她捏得很平。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「明天不能带进考场。路上吃。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「装备封存，路上消耗。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「别说得像物资调度。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「本来就是你教的。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我们在校门口分开。她往左，我往右。路灯把她的影子拉得很长，她没有回头，但举起手轻轻挥了一下。"
+            },
+            {
+              "bg": "cgCh9FinalChecklist",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "六月六日晚的校门口，林澈低头检查透明笔袋和准考证。我站在她旁边，手里攥着不能带进考场的薄荷糖。"
+            }
+          ]
+        },
+        {
+          "id": "ch9-s5",
+          "title": "高考三日",
+          "lines": [
+            {
+              "bg": "gaokaoExamGateMorning",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "六月七日上午，考点外的人群把整条街挤得很慢。家长举着伞，老师站在路边点名，广播一遍遍提醒考生检查证件。",
+              "bgm": "gaokaoAnxiety"
+            },
+            {
+              "speaker": "lin",
+              "text": "「数学不要和选择题建立私人恩怨。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linSummerNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「如果它先挑衅呢？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「标星，后置，别回头骂它。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「高考禁止情绪输出。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「允许，但不许写在答题卡上。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "安检口把人流分开。林澈在另一栋楼，我在这边。真正进考场之前，能互相做的事少得可怜。"
+            },
+            {
+              "bg": "cgCh9ExamGateSeparateWays",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "考点门口人群涌动，林澈和我在安检线前短暂停住。她拿着透明笔袋往另一栋楼走，我站在原地看她抬手示意。"
+            },
+            {
+              "bg": "gaokaoExamRoom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "语文开考。卷子发下来，纸面很白。我先写姓名和准考证号，贴条形码，再把手放在桌面上停了三秒。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "作文题没有让我想到土星环，也没有让我想到波兰。它就是一道作文题，我把材料拆成三层，选了最稳的结构。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "下午数学，第八题果然不友好。我在旁边画了个小星，翻过去。写到最后大题时，反而比模拟那天稳。"
+            },
+            {
+              "bg": "gaokaoWaitingArea",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "第一天结束，校门外的树荫下挤满了人。林澈出来时先把水递给我，自己才拧开另一瓶。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「第八题没有赢我。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你也没有跟它吵架？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「没有。我们保持了考场距离。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「很好。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "第二天上午物理。林澈出来后没有对答案，只说最后一题单位检查了。我听懂了，那是她对自己最具体的确认。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「外语前别喝太多水。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你为什么现在说？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「因为你已经喝了半瓶。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我这是保持状态。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「保持到考场外。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "第三天最后一科，铃声响起时，教室里没有立刻爆发。所有人都在等老师收卷、清点、允许离场。那几十秒比过去三天还长。"
+            },
+            {
+              "bg": "gaokaoExamGateMorning",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "走出考点时，外面的人声忽然涌上来。有人笑，有人哭，有人把资料袋举得很高。我在人群里找到林澈，她手里还拿着一瓶没开封的水。",
+              "bgm": "weightlessEcho"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「结束了？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「嗯。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我怎么没有想象中激动？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「因为你三天没睡踏实，大脑现在只想关机。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那你呢？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我也想关机。但我还要提醒你别把准考证丢了。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「高考都结束了，你还在后勤模式。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「后勤模式延迟关闭。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我把准考证塞进文件袋最里面，拉链拉好。她看见后，终于没有再补一句。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "人群把我们往前推。三天前我们在这里分开，三天后又在这里汇合。中间每一科都只能自己写，但走出来的时候，能看见她在，已经够了。"
+            }
+          ]
+        },
+        {
+          "id": "ch9-s6",
+          "title": "短暂空白",
+          "lines": [
+            {
+              "bg": "convenienceStore",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "高考结束后的便利店比平时更亮。冰柜里塞满雪糕，门口堆着刚放下书包的考生，大家都像突然没有了下一节课。",
+              "bgm": "dailyClassroom"
+            },
+            {
+              "speaker": "chen",
+              "text": "「今晚聚餐！谁也不许提答案！」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "chen",
+                  "img": "chenNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "chen"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你这句话本身已经提了。」"
+            },
+            {
+              "speaker": "chen",
+              "text": "「那我改：谁提答案谁买单。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「这个比较有效。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linSummerTired",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈坐在窗边，手里拿着一瓶水，靠着椅背闭了半分钟眼。她没有睡着，只是终于允许自己不立刻做下一件事。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「林澈，高考结束了，你可以暂停后勤模式。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「暂停多久？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「至少到明天上午。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「那你明天上午十点前不要问我志愿。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「成交。十点零一？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「周行。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我闭嘴。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "唐越在群里发消息，说自己准备补觉到第二天中午。顾望舒回复：建议先吃饭。夏南星难得发了一个“活着就行”。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我们买了两支雪糕和两瓶水，坐在便利店靠窗的位置。准考证被收进文件袋，笔袋放在桌角，像刚下班的工具。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你真的不问志愿？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「说好十点前不问。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「那你现在想问什么？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「想问你要不要再睡五分钟。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「在便利店睡？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我看着包。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她看了我几秒，最后真的把额头轻轻靠在手臂上。便利店空调声很低，外面的夏天热得发白。"
+            },
+            {
+              "bg": "cgCh9EmptyConvenienceStore",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "高考后的便利店窗边，林澈靠在手臂上闭眼休息。桌上放着雪糕、水和收好的准考证，我坐在旁边看着书包。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "那一小段空白没有答案，也没有台词。可它很难得。过去几个月，我们总是在赶下一张卷子、下一班车、下一场考试。现在终于有十分钟，什么都不用赶。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "第二天十点零一分，志愿、分数、未来这些词会重新找上门。可至少这一晚，我们先把灯关掉，像普通高三学生一样，睡一个没有闹钟的觉。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "第十章：本人理由",
+      "sections": [
+        {
+          "id": "ch10-s1",
+          "title": "查分前夜",
+          "lines": [
+            {
+              "bg": "scoreNightLivingRoom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "六月二十三日晚上，客厅灯开得很亮。茶几上放着水果、手机、准考证和一张被我写得乱七八糟的位次预估表。",
+              "bgm": "gaokaoAnxiety"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我爸妈都说不紧张，但水果切好以后谁也没动。手机屏幕每亮一次，三个人都抬头。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「模板发你了。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你连查分前夜都做模板？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「不然呢，靠刷新网页提高分数吗？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我刚才确实试了五次。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「所以我发模板。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她发来的共享表名字很朴素：分数-位次-可选范围。三列标题冷静得像不知道今晚有多少人睡不着。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你慌吗？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「慌。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那你还做表？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「慌的时候更要做。不然只会一直刷新。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我把共享表复制一份，填上姓名，光标停在总分那一格。空白格子比任何题目都安静。"
+            },
+            {
+              "speaker": "mother",
+              "text": "「别一直看手机，眼睛都红了。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我这是考后数据监控。」"
+            },
+            {
+              "speaker": "father",
+              "text": "「说人话。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我紧张。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "说出来以后，客厅反而轻了一点。我妈把水果盘往我这边推了推，没有再劝我放松。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "十一点五十七分，林澈发来一条消息：如果系统卡，先截图时间，不要连点。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你怎么连服务器心理都考虑到了？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我是在考虑你的手。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我手怎么了？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「紧张的时候会乱点。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我低头看自己的拇指，默默把手机放到桌面上。"
+            },
+            {
+              "speaker": "system",
+              "text": "查分前夜怎么回应林澈？",
+              "choice": [
+                {
+                  "text": "告诉林澈自己很慌",
+                  "effects": {
+                    "trust": 1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "zhou",
+                      "text": "「我很慌。不是怕考差，是怕数字出来以后什么借口都没了。」"
+                    },
+                    {
+                      "speaker": "lin",
+                      "text": "「我也是。那就等数字出来，再一个一个看。」"
+                    }
+                  ]
+                },
+                {
+                  "text": "先把共享表复制好",
+                  "effects": {
+                    "discipline": 1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "narrator",
+                      "text": "我先把共享表复制好，把能填的基础信息填完。林澈发来一个“嗯”，像给一项流程打勾。"
+                    }
+                  ]
+                },
+                {
+                  "text": "只回一个“等出分吧”",
+                  "effects": {
+                    "trust": -1
+                  },
+                  "insert": [
+                    {
+                      "speaker": "lin",
+                      "text": "「可以等。但你别把自己关起来等。」"
+                    },
+                    {
+                      "speaker": "narrator",
+                      "text": "我看着那句话，过了很久才回“知道”。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch10-s2",
+          "title": "数字落下来",
+          "lines": [
+            {
+              "bg": "scoreNightLivingRoom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "零点过后，网页卡了两次。第三次刷新，分数终于跳出来。那串数字没有音乐，也没有特效，只是安静地停在屏幕中央。",
+              "bgm": "weightlessEcho"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我盯着它看了十几秒，先确认姓名，再确认考生号，最后才敢看总分和位次。够冲目标专业，但不稳；去近一些的学校很稳，但课程明显弱。"
+            },
+            {
+              "speaker": "mother",
+              "text": "「怎么样？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「能选。有点难选。」"
+            },
+            {
+              "speaker": "father",
+              "text": "「能选就是好事。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "手机震了一下。林澈发来截图，她的分数比我高，位次也漂亮，但她想去的专业同样不是毫无风险。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你的？」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我把截图发过去，手指在发送键上停了半秒，还是连位次一起发了。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你发完整了。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「这也要表扬？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「以前你可能只发总分。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我在你这里真的有历史信用记录。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「志愿看位次，不看截图构图。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我本来还想让截图显得体面一点。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「周行，体面不能填志愿。」"
+            },
+            {
+              "bg": "cgCh10ScoreSharedTable",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "凌晨客厅里，查分页面和林澈发来的共享表同时亮着。茶几上的水果没人动，周行的手停在位次那一格旁边。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我们把总分、位次、目标学校、风险等级填进去。表格没有让选择变简单，但至少让它不再是一团雾。"
+            },
+            {
+              "speaker": "mother",
+              "text": "「离家近的这所，不也不错吗？」"
+            },
+            {
+              "speaker": "father",
+              "text": "「远的那所专业更对口，但以后路也窄。你自己要想清楚。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我点头。父母的担心不难听，也不荒唐。只是每一句都像在表格外又加一列。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「明天回学校吗？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「嗯。生涯教室。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「把两张表都带上。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「哪两张？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「想去的，和你觉得离我近的。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我看着手机，忽然不知道怎么回。她没有等我解释，下一条很快发来。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我不是不让你考虑距离。只是距离不能替你上课。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「知道。明天说。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "这一晚我睡得很浅。分数落下来以后，反而有更多东西浮上来。"
+            }
+          ]
+        },
+        {
+          "id": "ch10-s3",
+          "title": "生涯教室",
+          "lines": [
+            {
+              "bg": "careerRoom",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "第二天上午，学校生涯教室的打印机一直没停。每张桌上都摊着招生目录、位次表和不同颜色的记号笔。",
+              "bgm": "dailyClassroom"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「今天不替你们做决定。你们先把三列写清楚：想去、能去、值得去。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "teacher",
+                  "img": "teacherNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "teacher"
+            },
+            {
+              "speaker": "chen",
+              "text": "「老师，食堂好吃算理由吗？」"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「算生活质量，不算第一志愿理由。」"
+            },
+            {
+              "speaker": "chen",
+              "text": "「明白，不能为了鸡腿献祭四年。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈把纸横过来，在三列后面又加了一列：不该去。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「这列看起来很凶。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「有些学校不是不好，是理由对不上。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linSummerThinking",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她说这句话的时候没有看我，但我知道她在说哪一张表。"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「物理类作为入口也可以。看培养方案，不只看专业名称。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "wangshu",
+                  "img": "wangshuNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "wangshu"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「顾望舒，你查得也太细了。」"
+            },
+            {
+              "speaker": "wangshu",
+              "text": "「专业名称负责吸引人，培养方案负责四年。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「这句我记一下。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我们开始查课程。天体物理导论、普通物理、数学分析、程序设计、实验课、转专业条件、保研去向。网页开了十几个，浏览器标签挤成一排。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你讲第一张表的时候，一直在说课程。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「第二张也有课程。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「第二张你说了八分钟高铁。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「交通也是现实。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「是现实，但不能替你上课。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我把笔放下。她没有否定距离，也没有假装距离不重要。她只是把我不敢说清楚的权重摆回桌面。"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「周行，林澈，你们两个过来。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "许老师看了我们的表，先圈出第一张，又在第二张旁边打了个问号。"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「不该去，不是学校不好，是它和你的理由对不上。你们要分清楚，重要的人可以影响安排，但不能替换本人理由。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「本人理由。」"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「对。以后后悔的时候，能不能说清楚这是你自己认可的选择。说不清，就先别急着点提交。」"
+            },
+            {
+              "bg": "cgCh10CareerRoomThreeColumns",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "生涯教室白板上写着“想去 / 能去 / 值得去”。桌上摊着位次表和招生目录，林澈用笔在“不该去”那一列下划线。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "那天上午，我们没有得出答案，只得出了一张更诚实的表。它有点难看，也有点必要。"
+            }
+          ]
+        },
+        {
+          "id": "ch10-s4",
+          "title": "两张志愿表",
+          "lines": [
+            {
+              "bg": "homeEvening",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "第三天晚上，林澈来我家还资料。茶几上摊着两张志愿草表，一张课程合适但城市远，一张离她近但课程弱。",
+              "bgm": "rainLibrary"
+            },
+            {
+              "speaker": "mother",
+              "text": "「林澈，先吃点水果。别光看表。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「谢谢阿姨。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "father",
+              "text": "「我们也不是反对远。只是专业窄、城市远、以后就业和读研都要考虑。周行有时候想得太直。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「爸，你可以不用当着本人总结。」"
+            },
+            {
+              "speaker": "father",
+              "text": "「本人更要听。」"
+            },
+            {
+              "speaker": "mother",
+              "text": "「如果没有林澈，你会怎么选？」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "客厅忽然安静下来。这个问题不锋利，却很准。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「第一张。」"
+            },
+            {
+              "speaker": "mother",
+              "text": "「我们不是让你把她排除掉。她是重要的人，但不能只剩这个。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我也这么想。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你们什么时候统一口径的？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「不用统一。这个条件很明显。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把培养方案那一页推到我面前，手指按住“核心课程”那一栏。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我可以帮你看课程，可以帮你算城市距离，也可以说我会难过。但我不能用难过要求你改志愿。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你把这个也写进清单了？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「写了。怕我自己忘。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你连不许自己越界都能列条目。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「因为我也想离你近。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她说得很轻，轻到我差点以为自己听错。可我爸妈都没有说话，水果盘也安静地停在茶几中间。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「但我不想以后你上不喜欢的课，然后说是因为我。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我不会那么说。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你现在不会。可如果一开始理由就歪了，以后很容易歪回来。」"
+            },
+            {
+              "speaker": "father",
+              "text": "「这话说得很清楚。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「爸，你现在不要加入评审。」"
+            },
+            {
+              "speaker": "mother",
+              "text": "「我觉得她说得对。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「妈。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "所有人都站在同一个问题前面：我到底要用谁的理由填第一志愿。"
+            },
+            {
+              "bg": "cgCh10TwoVolunteerForms",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "客厅茶几上摊着两张志愿草表和培养方案。林澈的手按住核心课程页，周行父母坐在背景里，气氛安静而现实。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈离开前，把那张“不该去”的表折好塞给我。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「提交前再看一遍。不是为了否定它，是为了确认你没有拿它逃避。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你明天会在旁边吗？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「会。但我不碰鼠标。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「这么严格？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「这是你的志愿。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她站在门口，夏夜的热风从楼道吹进来。那一刻我很想把答案直接说出来，可答案还没有完全从我自己嘴里站稳。"
+            }
+          ]
+        },
+        {
+          "id": "ch10-s5",
+          "title": "提交按钮",
+          "lines": [
+            {
+              "bg": "volunteerSystemDesk",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "志愿填报开放那天，学校机房安静得像考场。电脑屏幕上是蓝白色的系统界面，提交按钮在页面最下方。",
+              "bgm": "gaokaoAnxiety"
+            },
+            {
+              "speaker": "teacher",
+              "text": "「最后确认前，每个人自己读一遍志愿顺序。老师和家长都不替你们点鼠标。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "teacher",
+                  "img": "teacherNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "teacher"
+            },
+            {
+              "speaker": "narrator",
+              "text": "林澈坐在我旁边，手放在膝盖上，真的没有碰鼠标。她只看着屏幕，像看一张必须由我自己完成的答题卡。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「周行，你第一志愿的本人理由是什么？」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「本人理由？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「不是父母理由，不是我的理由，也不是你害怕以后见不到我的理由。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你这题限制条件很多。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「重要选择限制条件本来就多。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "屏幕上的学校名称很安静。第一张表里的学校，课程更对，城市更远。第二张表里的学校，距离更近，却让我解释课程时总是绕开关键。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "鼠标停在第一志愿那一栏。提交前，系统要求再次确认。我听见机房空调的声音，也听见自己心跳很快。"
+            },
+            {
+              "speaker": "system",
+              "text": "第一志愿要怎么提交？",
+              "choice": [
+                {
+                  "text": "说出真实志愿，选择本人理由成立的学校",
+                  "effects": {
+                    "trust": 1,
+                    "future_sync": 1
+                  },
+                  "endingCheck": true,
+                  "insert": [
+                    {
+                      "speaker": "zhou",
+                      "text": "「第一张。因为课程、培养方案和我想走的路对得上。距离很麻烦，但它不是错误理由。」"
+                    },
+                    {
+                      "speaker": "lin",
+                      "text": "「嗯。」"
+                    },
+                    {
+                      "speaker": "zhou",
+                      "text": "「我也想离你近。但不能把近写成第一理由。」"
+                    },
+                    {
+                      "speaker": "lin",
+                      "text": "「这样说，我能接受。」"
+                    },
+                    {
+                      "speaker": "narrator",
+                      "text": "我点下确认。系统弹出提交成功的提示，简单得像所有纠结都只是为了这一行小字。"
+                    }
+                  ]
+                },
+                {
+                  "text": "隐瞒动机，选择离林澈最近的学校",
+                  "effects": {
+                    "trust": -2,
+                    "future_sync": -2
+                  },
+                  "target": "ch12-bad-s1",
+                  "insert": [
+                    {
+                      "speaker": "narrator",
+                      "text": "我把离林澈最近的那所学校放到第一位，嘴上说课程也不错。林澈没有立刻反驳，只看着我解释越来越长。"
+                    },
+                    {
+                      "speaker": "lin",
+                      "text": "「你现在讲的是高铁，不是培养方案。」"
+                    }
+                  ]
+                },
+                {
+                  "text": "把两张表摊开，承认自己还在摇摆",
+                  "effects": {
+                    "trust": 1
+                  },
+                  "endingCheck": true,
+                  "insert": [
+                    {
+                      "speaker": "zhou",
+                      "text": "「我还在摇摆。第一张是本人理由，第二张是我想离你近。我不想把这两个混成一个。」"
+                    },
+                    {
+                      "speaker": "lin",
+                      "text": "「那就先承认它们是两个问题。能承认，就还有办法。」"
+                    },
+                    {
+                      "speaker": "narrator",
+                      "text": "我们把两张表重新摊开。最后一遍确认时，我没有再把交通距离写进专业理由里。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch10-s6",
+          "title": "提交之后",
+          "lines": [
+            {
+              "bg": "schoolGateDusk",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "从机房出来，学校的夏天热得很实在。操场有人在打球，教学楼外墙被太阳晒成浅金色，像什么都没有刚刚发生。",
+              "bgm": "smallPromise"
+            },
+            {
+              "speaker": "narrator",
+              "text": "提交以后没有烟花，也没有立刻到来的未来。只有一张回执单，和林澈手里那瓶被她握得有点温的水。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「紧张吗？」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualNeutral",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「紧张。但不是后悔。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「这两个要分清楚。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你现在说话越来越像许老师。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我比他严格。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「确实。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把回执单折好，让我夹进文件袋。这个动作太熟悉了，从候选营到波兰，再到志愿提交，她好像一直在帮我把混乱收进夹层。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「高考后那个问题，我能问了吗？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「等录取结果出来。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「你这叫无限延期。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「这叫按流程。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那流程下一步是什么？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「回家，睡觉，等录取。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我看着她走下台阶。她没有回头催我，却放慢了一点脚步，像默认我会跟上。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "这一天没有结束所有问题，只是把最重要的那一个交了上去。接下来，系统会给出结果，而我们要面对结果之后的生活。"
+            }
+          ]
+        },
+        {
+          "id": "ch11-happy-s1",
+          "title": "HE：同一片天空",
+          "lines": [
+            {
+              "bg": "summerRooftop",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "七月下旬，录取结果陆续出来。学校楼顶的门是许老师帮忙开的，理由很朴素：整理天文社器材，顺便还钥匙。",
+              "bgm": "happyEnding"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我跑上楼的时候，林澈已经在旧望远镜旁边。她手机屏幕亮着，录取页面停在结果那一行。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我录了。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我也是。」",
+              "clear": true,
+              "show": [
+                {
+                  "id": "lin",
+                  "img": "linCasualSmile",
+                  "pos": "center"
+                }
+              ],
+              "focus": "lin"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「所以现在可以问那个高考后问题了吗？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「可以。但你先坐下，你刚才跑上楼喘得很明显。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「气氛都被你纠偏了。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「我不纠偏，你会把告白说成百米冲刺总结。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我坐在台阶上，把手机和录取页面一起放到身边。我们不在同一个学校，城市也不是近到一顿晚饭就能见面。可那不是隐瞒出来的距离，是我们都看清楚以后接受的距离。"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我喜欢你。不是因为我们一定能在同一个地方，也不是因为你帮我整理过多少张表。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你可以不用排除这么多条件。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我怕你判我理由不充分。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「这次充分。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她说完，轻轻笑了一下。夏夜的风从楼顶吹过去，旧望远镜旁边的灰尘被吹起一点，又很快落下。"
+            },
+            {
+              "bg": "cgCh10HeAdmissionRooftop",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "夏夜学校楼顶，林澈和周行并肩坐在旧望远镜旁，两人的录取页面亮在手机上，远处城市灯光安静铺开。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「大学以后，联系不能做成任务表。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那做成什么？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「正常聊天。偶尔远程观测。忙的时候直接说忙。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「听起来比国家队集训难。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「所以第十一章再练。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她把那枚从波兰带回来的银色星形徽章放到望远镜箱子里，又很快拿出来，别回自己的包带上。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "我们还会有新的课表、新的城市和新的误差。可至少这一次，坐标是自己填的，喜欢也是自己说出口的。"
+            }
+          ]
+        },
+        {
+          "id": "ch12-bad-s1",
+          "title": "BE：失焦",
+          "lines": [
+            {
+              "bg": "collegeDormDesk",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "录取结果出来那天，所有人都说挺好。离林澈近，城市熟，学校也不差。桌上摊着新生手册和课表，我却讲不清第一学期到底要上哪些核心课。",
+              "bgm": "badEnding"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你第一学期上哪些课？」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「高数、英语，还有一个导论……具体我再看。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「你以前讲真正想去的学校，不会这样。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「我只是想让以后简单一点。」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「可是你把最难的部分推给以后了，还把我放在最前面。」"
+            },
+            {
+              "speaker": "narrator",
+              "text": "她没有发火。她越平静，我越知道这件事没法靠玩笑过去。"
+            },
+            {
+              "speaker": "lin",
+              "text": "「如果你真的喜欢这所学校，你可以选。可是不要说是为了我。这个理由我不能收。」"
+            },
+            {
+              "speaker": "zhou",
+              "text": "「那我们呢？」"
+            },
+            {
+              "speaker": "lin",
+              "text": "「先别用‘我们’把问题盖住。你要先把你的路看清楚。」"
+            },
+            {
+              "bg": "cgCh10BeUnreadCurriculum",
+              "clear": true,
+              "speaker": "narrator",
+              "text": "大学宿舍桌上摊着课表和转专业说明，手机里的林澈聊天框停在简短回复。窗外是陌生校园的夜色。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "后来我们的联系没有突然断掉，只是变得礼貌。她还是会回消息，只是不再替我检查每一个夹层。我也终于明白，最糟糕的不是离她远，而是我把她放到一个她不能承担的位置。"
+            },
+            {
+              "speaker": "narrator",
+              "text": "第十二章要从这里开始。不是追回，也不是解释，而是先承认：那张志愿表里，我没有把自己的理由写清楚。"
             }
           ]
         }
@@ -13963,7 +16047,7 @@ function endingTargetForStats(stats) {
   const { trust, discipline, future_sync } = stats;
   const happy = trust >= 5 && discipline >= 4 && future_sync >= 4;
   const ending = happy ? "happy" : "bad";
-  return { ending, target: ending === "happy" ? "ch8-happy" : "ch8-bad" };
+  return { ending, target: ending === "happy" ? "ch11-happy-s1" : "ch12-bad-s1" };
 }
 
 function markEndingFromTarget(target) {
@@ -14297,7 +16381,7 @@ function replayChoices(choices, options = {}) {
     if (option.insert?.length) {
       const inserted = expandInsertedLinesWithLocalInserts(option.insert.map((lineItem, offset) => normalizeInsertedLine(lineItem, item, offset)));
       const target = option.endingCheck
-        ? (mutateState ? resolveEndingTarget() : state.ending ? `ch8-${state.ending}` : endingTargetForStats(state.stats).target)
+        ? (mutateState ? resolveEndingTarget() : state.ending ? (state.ending === "happy" ? "ch11-happy-s1" : "ch12-bad-s1") : endingTargetForStats(state.stats).target)
         : option.target;
       if (mutateState) markEndingFromTarget(target);
       if (target && inserted.length) inserted[inserted.length - 1].postTarget = target;

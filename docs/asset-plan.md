@@ -386,4 +386,25 @@ no villain smirk, no aggressive pointing, no luxury fashion, no teacher look, no
 3. 再调整存档 payload，避免扩写后旧存档锁死旧 runtime。
 4. 最后做历史 HTML 转义、存档槽交互确认、场景 snapshot 优化。
 
-本轮未生成 ImageGen 图片。
+## Chapter 9-10：高考与志愿（当前主线）
+
+本轮已新增 ImageGen PNG 资源：
+
+| Key | 用途 |
+| --- | --- |
+| `gaokaoExamGateMorning` | 高考考点门口 |
+| `gaokaoExamRoom` | 高考正式考场 |
+| `gaokaoWaitingArea` | 考点外等待区 |
+| `scoreNightLivingRoom` | 查分前夜客厅 |
+| `volunteerSystemDesk` | 志愿填报系统电脑桌 |
+| `summerRooftop` | HE 录取后楼顶 |
+| `collegeDormDesk` | BE 大学宿舍桌面 |
+| `cgCh9ReturnCountdown` | 回国后教室倒计时与补课清单 |
+| `cgCh9FinalChecklist` | 6 月 6 日校门口互查材料 |
+| `cgCh9ExamGateSeparateWays` | 高考考点分头进场 |
+| `cgCh9EmptyConvenienceStore` | 高考后便利店空白 |
+| `cgCh10ScoreSharedTable` | 查分页面与共享表 |
+| `cgCh10CareerRoomThreeColumns` | 生涯教室三列表 |
+| `cgCh10TwoVolunteerForms` | 客厅两张志愿表 |
+| `cgCh10HeAdmissionRooftop` | HE 录取后楼顶确认 |
+| `cgCh10BeUnreadCurriculum` | BE 大学宿舍失焦 |
